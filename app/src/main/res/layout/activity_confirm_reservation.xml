@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colornew"
+    tools:context="com.omar.carrentaljo.ConfirmReservationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="3pt"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="Car Rentel Cost"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/CostofCar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|center"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:text="JOR : "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="Additonal Options"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/AdditionalCost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="JOR : "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Additional_Driver1"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="Additional Driver"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/Additional_Driver2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="JOR : "
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay2"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/RoadsideAssistance1"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="Roadside Assistance"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/RoadsideAssistance2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="JOR : "
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay3"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Babyseat1"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="Baby Seat"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/Babyseat2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="JOR : "
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lay4"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/RoofTop1"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="Roof Top"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/RoofTop2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:fontFamily="casual"
+                        android:text="JOR : "
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="64dp">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5pt"
+                    android:fontFamily="casual"
+                    android:text="Total Rental Cost"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="#FFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TotalCost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5pt"
+                    android:fontFamily="casual"
+                    android:text="JOR : "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="How you would lke to pay"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/Cash"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2pt"
+                    android:buttonTint="#3399FF"
+                    android:checked="true"
+                    android:fontFamily="casual"
+                    android:text="Cash"
+                    android:textColor="#fff" />
+
+                <RadioButton
+                    android:id="@+id/Online"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10pt"
+                    android:buttonTint="#3399FF"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="Online"
+                    android:textColor="#fff" />
+    </RadioGroup>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="If Online we Accept this major card types"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/visa"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/vi" />
+
+            <ImageView
+                android:id="@+id/master"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/paypa2" />
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2pt">
+
+            <EditText
+                android:id="@+id/nameOnTheCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1pt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=" " />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2pt">
+
+            <EditText
+                android:id="@+id/CardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:inputType="textPersonName"
+                android:text=" " />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1pt">
+
+            <Button
+                android:id="@+id/BookNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1pt"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:text="Book Now"
+                android:textColor="#fff" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

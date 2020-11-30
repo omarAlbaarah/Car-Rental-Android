@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.omar.carrentaljo.CarEditActivity">
+
+    <EditText
+        android:id="@+id/CarEdit_CarName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CarName"
+        android:textColor="#fff"
+        android:textColorHint="#FFF"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/CarEdit_Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="#FFF"
+        android:textColor="#fff"
+        android:textColorHint="#FFF"
+        android:hint="Price"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/CarEdit_Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#fff"
+        android:backgroundTint="#FFF"
+        android:textColorHint="#FFF"
+        android:hint="Location"
+        android:inputType="textPersonName" />
+
+    <Switch
+        android:id="@+id/CarEdit_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:backgroundTint="#FFF"
+        android:textColor="#FFF"
+        android:text="Car Status" />
+
+    <Button
+        android:id="@+id/CarEdit_Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borderr"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFF"
+        android:text="Confirm changes" />
+
+    <Button
+        android:id="@+id/CarEdit_Delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/borderr"
+        android:textColor="#FFF"
+        android:text="Delete this Car" />
+</LinearLayout>

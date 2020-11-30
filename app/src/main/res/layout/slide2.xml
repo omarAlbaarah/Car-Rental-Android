@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearlayout1"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/slide_title"
+        android:layout_marginTop="40dp"
+        android:text="Title"/>
+    <TextView
+        android:textAlignment="center"
+        android:text="Description"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/slide_desc_txt"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:layout_gravity="left"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/slide_skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="Skip"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/dotsLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewpager2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1pt"
+        android:orientation="horizontal"
+        android:padding="20dp"></LinearLayout>
+
+</LinearLayout>

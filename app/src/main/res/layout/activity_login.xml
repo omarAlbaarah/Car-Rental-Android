@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2a3b73"
+    android:orientation="vertical"
+    tools:context="com.omar.carrentaljo.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30pt"
+        app:srcCompat="@drawable/loog" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <EditText
+            android:id="@+id/Email_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.03"
+            android:backgroundTint="#FFF"
+            android:drawablePadding="50dp"
+            android:ems="10"
+            android:hint="Email"
+            android:textColor="#fff"
+            android:inputType="textPersonName"
+            android:textColorHint="#FFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Pass_login"
+            style="@style/AlertDialog.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFF"
+            android:textColor="#fff"
+            android:drawablePadding="50dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#FFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Login_login"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.08"
+            android:background="@drawable/borderr"
+            android:text="Login"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/admin_login"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.03"
+            android:background="@drawable/borderr"
+            android:gravity="center"
+            android:text="Admin Login"
+            android:textColor="#FFf" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/SignUp_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.06"
+        android:background="@drawable/borderr"
+        android:fontFamily="serif"
+        android:text="Not a member? Sign up now."
+        android:textColor="#FFF" />
+
+</LinearLayout>

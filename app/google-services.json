@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "174875577389",
+    "firebase_url": "https://carrentaljo-b37ee.firebaseio.com",
+    "project_id": "carrentaljo-b37ee",
+    "storage_bucket": "carrentaljo-b37ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174875577389:android:f3227ca36cdeb8c0",
+        "android_client_info": {
+          "package_name": "com.omar.carrentaljo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174875577389-f0n54nq31sfuvmejl868huf1mvg2ass8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omar.carrentaljo",
+            "certificate_hash": "2b99f289babf65b2fdce3359ddd9f13d80b7df74"
+          }
+        },
+        {
+          "client_id": "174875577389-1io9aaf3fvre1a3j8o6b8ps9497jdpmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdgrhsk9x0eoJpgfG2Wr9RkAouhpkvT-E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174875577389-1io9aaf3fvre1a3j8o6b8ps9497jdpmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

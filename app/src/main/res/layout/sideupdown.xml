@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bopen"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="open" />
+
+        <Button
+            android:id="@+id/btogg"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="change" />
+
+        <Button
+            android:id="@+id/bclose"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="close" />
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:id="@+id/slidingDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle" >
+
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Handle" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <CheckBox
+                android:id="@+id/chkbok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="On/Off" />
+        </LinearLayout>
+    </SlidingDrawer>
+
+</FrameLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:id="@+id/CarImage1"
+        app:srcCompat="@drawable/ic_photo_camera_black_24dp" />
+
+
+
+
+        <EditText
+            android:id="@+id/admin_CarName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CarName"
+            android:backgroundTint="#FFF"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#fff"
+            android:textColorHint="#FFF" />
+
+        <EditText
+            android:id="@+id/admin_CarPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CarPrice"
+            android:backgroundTint="#FFF"
+            android:inputType="numberDecimal"
+            android:textColor="#fff"
+            android:textColorHint="#FFF" />
+
+        <EditText
+            android:id="@+id/admin_Loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Location"
+            android:backgroundTint="#FFF"
+            android:inputType="textPersonName"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gear Type"
+            android:textColor="#FFF"
+            android:textColorHint="#FFF"
+            android:textSize="17sp" />
+
+        <RadioGroup
+            android:id="@+id/cargear"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/auto1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#fff"
+                android:checked="true"
+                android:shadowColor="#FFF"
+                android:text="Automatic"
+                android:textColor="#FFF"
+                android:textColorLink="#FFF" />
+
+            <RadioButton
+                android:id="@+id/manual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="#FFF"
+                android:text="Manual"
+                android:textColor="#FFF" />
+
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FFF"
+            android:text="Air Conditioning"
+            android:textColor="#fff" />
+
+        <Spinner
+            android:id="@+id/spinner_seats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_Class"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner_Doors"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/admin_add_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borderr"
+            android:text="Add Car"
+            android:textColor="#FFF" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

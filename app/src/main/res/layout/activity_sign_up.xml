@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2a3b73"
+    tools:context="com.omar.carrentaljo.SignUpActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="CarRentalJo"
+        android:textColor="#FFF"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_margin="5pt"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/Name_signup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:shadowColor="#fff"
+            android:textColor="#fff"
+            android:textColorHighlight="#FFF"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Email_signup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:backgroundTint="#FFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Pass_signup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:backgroundTint="#FFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Confirm_signup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:backgroundTint="#FFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Address_signup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:backgroundTint="#FFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Age_signup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+
+            android:backgroundTint="#FFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Age"
+            android:textColor="#fff"
+            android:inputType="number"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/Phone_signup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Phone #"
+            android:textColor="#fff"
+            android:inputType="phone"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/Signup_radio"
+            android:layout_width="324dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:text="I agree to the Terms and Conditons"
+            android:textColor="#fff"
+            android:buttonTint="#fff"
+            android:textColorHighlight="#fff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Signup_signup"
+            android:layout_width="259dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/borderr"
+
+            android:drawableBottom="#FFF"
+            android:text="SignUp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</LinearLayout>
